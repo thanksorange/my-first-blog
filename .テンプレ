@@ -1,0 +1,12 @@
+
+# 仮想環境構築
+python -m venv myvenv
+
+# 仮想環境起動
+myvenv\Scripts\activate
+
+# pip アップグレード
+python -m pip install --upgrade pip
+
+# WEBサーバー起動
+python manage.py runserver
